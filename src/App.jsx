@@ -61,7 +61,7 @@ const App = () => {
   // call start handler
   const startCallInline = () => {
     setConnecting(true);
-    vapi.start(b85367fc-7298-4cbe-9b48-8a2eb3ee0723);
+    vapi.start(assistantOptions);
   };
   const endCall = () => {
     vapi.stop();
